@@ -1,7 +1,7 @@
 const DEFAULT_SIZE = 16;
 
 const gridContainer = document.querySelector(".container");
-const resizeButton = document.querySelector("#resize");
+const resizeButton = document.querySelector("button");
 resizeButton.addEventListener("click", resizeGrid);
 
 function createGrid(size) {
