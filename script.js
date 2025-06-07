@@ -12,6 +12,10 @@ function createGrid() {
             const box = document.createElement("div");
             box.classList.add("box");
             row.appendChild(box);
+
+            box.addEventListener("mouseenter", () => {
+                box.style.backgroundColor = "black";
+            });
         }
     }
 }
