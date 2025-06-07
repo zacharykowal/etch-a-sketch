@@ -1,3 +1,7 @@
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,6 +9,22 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    background-color: aliceblue;
+    color: dodgerblue;
+}
+
+button {
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: #F9FAF8;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+}
+
+button:hover {
+    background-color: lightskyblue;
 }
 
 .container {
@@ -13,6 +33,7 @@ body {
     border: 1px solid black;
     width: 500px;
     height: 500px;
+    background-color: #F9FAF8;
 }
 
 .row {
