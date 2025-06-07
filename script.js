@@ -16,7 +16,8 @@ function createGrid(size) {
             row.appendChild(box);
 
             box.addEventListener("mouseenter", () => {
-                box.style.backgroundColor = "black";
+                let randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+                box.style.backgroundColor = randomColor;
             });
         }
     }
